@@ -1,2 +1,1 @@
-https://Asyashu.github.io/rsschool-cv/
-https://Asyashu.github.io/rsschool-cv/
+https://asyashu.github.io/rsschool-cv/
