@@ -1,4 +1,173 @@
-body {
+:root {
+    --dark-blue-color: #106c97;
+    --ligth-grey-color: #777e77;
+    --blue-color: #d2efff;
+    --light-green-color: #d0e7cf;
+  }
+    
+  body {
     box-sizing: border-box;
     background-color: #d1b1b5;
-}
+  }
+  
+  .cv-centered {
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(44, 34, 34, 0.53);
+  }
+  
+  .header-menu {
+    height: 40px;
+    font-weight: 700;
+    background-color: var(--light-green-color);
+    font-size: 14px;
+  }
+  
+  .header-menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .header-menu__item {
+    display: inline;
+   
+  }
+  
+  .header-menu__link {
+    color: var(--dark-blue-color);
+    text-align: center;
+    padding: 10px 21.8px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+  }
+  
+  .two-columns {
+    display: flex;
+  }
+  
+  .left-column {
+    width: 45%;
+    color: var(--dark-blue-color);
+    background-color: var(--blue-color);
+  }
+    
+  .right-column {
+    width: 55%;
+    padding: 40px;
+  }
+  
+  header {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+    
+  header img {
+    margin: 20px;
+    border: 5px solid var(--blue-color);
+  }
+    
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+    
+  header h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+    
+  main {
+    padding: 80px 20px;
+  }
+    
+  main h3 {
+    width: 136px;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: var(--dark-blue-color);
+  }
+     
+  main li {
+    margin-bottom: 10px;
+  }
+    
+  .contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+    
+  .contacts li p {
+    display: inline;
+    vertical-align: middle;
+  }
+    
+  .right-column .sub-header {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+    
+  .right-column .about-myself .sub-header .code-example{
+    margin-top: 150px;
+  }
+      
+  .right-column h3 {
+    flex: 1;
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ligth-grey-color);
+    border-bottom: 2px solid var(--ligth-grey-color);
+  }
+    
+  .right-column p {
+    color: var(--ligth-grey-coloror);
+    margin-left: 10px;
+  }
+     
+  pre {
+    text-align: left;
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+  }
+    
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: var(--dark-blue-color);
+  }
+    
+  footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+    
+  footer .github-icon {
+    margin-right: 10px;
+  }
+    
+  .my-github {
+    display: flex;
+    align-items: center;
+  }
