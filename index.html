@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rsschool-cv-html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cv-centered">
+      <nav class="header-menu">
+        <ul class="header-menu__list">
+            <li class="header-menu__item">
+               <a href="#about" class="header-menu__link">ABOUT</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#education" class="header-menu__link">EDUCATION</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#experience" class="header-menu__link">EXPERUENCE</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#code-example" class="header-menu__link">CODE EXAMPLE</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="#projects" class="header-menu__link">PROJECTS</a>
+          </li>
+            <li class="header-menu__item">
+                <a href="#skills" class="header-menu__link">SKILLS</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#languages" class="header-menu__link">LANGUAGES</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#contacts" class="header-menu__link">CONTACTS</a>
+            </li>
+        </ul>
+      </nav>
+        <div class="two-columns">
+          <div class="left-column">
+            <header>
+              <img src="images/photo-profile.jpg" alt="Photo" width="190" height="280">
+              <h1>Anastassia Shupenia</h1>
+              <h2>Student RS-School</h2>
+            </header>
+            <main>
+              <section class="contacts" id="contacts">
+                <h3>Contacts</h3>
+                <ul>
+                  <li>
+                    <img src="https://cdn.onlinewebfonts.com/svg/download_352556.png" alt="Email Icon" width="30" height="30">
+                    <p>nastia.sivtsova@mail.ru</p>
+                  </li>
+                  <li>
+                    <img src="https://cdn.onlinewebfonts.com/svg/download_326384.png" alt="GitHub" width="30" height="30">
+                    <p>Asyashu</p>
+                  </li>
+                </ul>
+              </section>
+              <section class="skills" id="skills">
+                <h3>Skills</h3>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Git, GitHub</li>
+                  <li>VS Code</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Illustrator</li>
+                </ul>
+              </section>
+              <section class="languages" id="languages">
+                <h3>Languages</h3>
+                <ul>
+                  <li>English - A2</li>
+                  <li>Russian - native</li>
+                </ul>
+              </section>
+            </main>
+          </div>
+          <aside class="right-column">
+            <section class="about-myself" id="about">
+              <div class="sub-header">
+                <h3>About Myself</h3>
+              </div>
+              <p>I'm a student in RS-School. I'm learning JS / FRONT-END. STAGE 0 (RU). I want to be a Front-end Developer.</p>
+            </section>
+            <section class="education" id="education">
+              <div class="sub-header">
+                <h3>Education</h3>
+              </div>
+              <p>Belarusian State Technological University</p>
+            </section>
+            <section class="experience" id="experience">
+              <div class="sub-header">
+                <h3>Experience</h3>
+              </div>
+              <p>Nothing yet</p>
+            </section>
+            <section class="code-example" id="code-example">
+              <div class="sub-header">
+                <h3>Code example</h3>
+              </div>
+              <pre>
+                <code>
+        function truncate(str, maxlength) {
+           let newStr;
+           if (str.length > maxlength) {
+          newStr = str.slice(0, maxlength - 3) + "...";
+          return newStr;
+           }
+           return str;
+        }
+                </code>
+              </pre>
+            </section>
+            <section class="projects" id="projects">
+              <div class="sub-header">
+                <h3>Projects</h3>
+              </div>
+              <p>I haven't have any projects yet, but for example <a href="index.html" class="header-menu__link">HTML</a> </p>
+            </section>
+          </aside>
+        </div>
+        <footer>
+          <a class="my-github" href="https://github.com/Asyashu">
+            <img class="github-icon" src="https://cdn.onlinewebfonts.com/svg/download_326384.png" alt="Github Icon" width="26" height="26">
+            <p>Visit my GitHub</p>
+          </a>
+          <p>© 2022</p>
+          <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+          </a>
+        </footer>
+    </div>
+</body>
+</html>
+
